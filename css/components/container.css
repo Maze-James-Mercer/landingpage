@@ -1,0 +1,147 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+}
+
+.object {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+@media (max-width: 946px) {
+    .section-text {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    .img {
+        margin: auto;
+    }
+}
+
+.faq-container {
+    text-align: center;
+}
+
+
+
+/*
+.site-footer-wrapper {
+    margin-top: 0;
+}
+.site-footer-wrapper {
+    min-width: 190px;
+    width: 100%;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #757575;
+    position: relative;
+}
+.site-footer-wrapper {
+    min-width: 190px;
+    width: 100%;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #757575;
+    position: relative;
+}
+
+.site-footer {
+    padding-top: 0;
+}
+.site-footer {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 90%;
+}
+.site-footer {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 90%;
+}
+
+ul.structural {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links {
+    max-width: 1000px;
+    font-size: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul.structural > li {
+    list-style: none;
+    margin-left: 0;
+}
+.footer-link-item {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+.footer-link-item {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+ul > li {
+    margin-left: 1.1em;
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.footer-link {
+    color: #757575;
+}
+.footer-link {
+    color: #757575;
+}
+a {
+    text-decoration: none;
+    color: #0071eb;
+}
+a {
+    background-color: transparent;
+}
+a {
+    background-color: transparent;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+*/

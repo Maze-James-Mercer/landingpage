@@ -1,0 +1,15 @@
+.text {
+    margin: -5% 0;
+    font-size: 1.625rem;
+    font-weight: normal;
+    z-index: 3;
+}
+
+.text-right-padding {
+    padding-right: 3rem;
+}
+
+.text-left-padding {
+    padding-left: 3rem;
+}
+

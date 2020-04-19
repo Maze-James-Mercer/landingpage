@@ -1,0 +1,165 @@
+.visual {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-relative {
+    position: relative;
+    z-index: 2;
+}
+
+.visual-container {
+    margin: -10% -5% -5% 0;
+}
+
+#section-download .visual-container {
+    margin: -8% 0 -4% -15%;
+    min-height: 100px;
+    width: 100%;
+}
+
+.section .visual-container {
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.gif-container {
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50.5%, -46%);
+}
+
+.animated-gif {
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: contain;
+}
+
+.gif-container-image {
+    margin: 0 1em 0 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.gif-container-text {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0.3em 0;
+}
+
+.gif-container-image img {
+    width: 2.5rem;
+}
+
+#section-download .gif-container {
+    top: 65%;
+    padding: 8px 12px;
+    max-height: 4.5rem;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    background: black;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 60%;
+    min-width: 15em;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 2em 0 #000000;
+    border-radius: 0.75em;
+}
+
+#section-device .gif-container {
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 897px) {
+    #section-TV .visual {
+        margin-top: 3rem;
+    }
+
+    #section-download .visual {
+        margin-bottom: 3rem;
+    }
+
+    #section-TV .visual {
+        margin-top: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150%;
+    }
+
+    #section-device .visual {
+        margin-top: 7rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150%;
+
+    }
+
+
+    #section-download .container {
+        display: table;
+    }
+
+    #section-download .visual {
+        display: table-footer-group;
+    }
+
+    #section-download .visual-container {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section {
+        text-align: center;
+    }
+
+    .section .text {
+        padding: 0;
+    }
+
+    #section-download h1, #section-TV h1, #section-device h1 {
+        font-size: 2.2rem;
+    }
+
+    .section h2 {
+        font-size: 1.1rem;
+    }
+
+    #section-faq .faq-title {
+        font-size: 2.2rem;
+    }
+}
